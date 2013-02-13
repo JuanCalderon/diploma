@@ -1,0 +1,4 @@
+diploma
+=======
+
+Automatic diploma generation.
