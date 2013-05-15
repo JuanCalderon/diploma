@@ -6,6 +6,8 @@ class CreateEvents < ActiveRecord::Migration
       t.string  :template
       t.integer :x
       t.integer :y
+      t.integer :width
+      t.integer :height
       t.integer :status
       t.timestamps
     end

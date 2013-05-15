@@ -4,7 +4,7 @@ class CreateParticipants < ActiveRecord::Migration
       t.references :event
       t.string     :name
       t.string     :email
-      t.string     :hash
+      t.string     :code
       t.datetime   :generated
       t.datetime   :accessed
       t.integer    :status
